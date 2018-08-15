@@ -2,21 +2,13 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p align="justify">I am a graduate student in computer science at <a style="text-decoration:none" href="https://www.ed.ac.uk/">University of Edinburgh</a>. I am affiliated to <a style="text-decoration:none" href="http://www.icsa.informatics.ed.ac.uk/compilers/">Compiler and Architecture Design (CArD)</a> group of <a style="text-decoration:none" href="http://web.inf.ed.ac.uk/icsa/">Institute of Computing Systems Architecture (ICSA)</a> at School of Informatics. I am also a student of EPSRC Centre for Doctoral Training (CDT) in <a style="text-decoration:none" href="http://web.inf.ed.ac.uk/infweb/student-services/cdt/pervasive-parallelism">Pervasive Parallelism</a>.</p>
+
+<p align="justify"> I am broadly interested in computer architecture, compiler optimizations, computer systems and data systems. Furthermore, my current research lies in the areas of parallel computing, with a particular emphasis on memory consistency, cache coherency and emerging memory technologies,e.g., persistent memory. This was motivated by the current trends in performance and energy efficient system design for compute-intensive and data-intensive applications.</p> 
+
+<p align="justify"> I am currently working wit <a style="text-decoration:none" href="http://homepages.inf.ed.ac.uk/vnagaraj/">Dr.Vijay Nagarajan</a> as my primary supervisor. In addition, I am currently completing the masters phase of the doctoral program specializing parallel computing.</p>
 
 <h2>Skills</h2>
 
