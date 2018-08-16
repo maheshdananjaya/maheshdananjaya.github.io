@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-![Profile Image]({{ site.url }}/{{ site.cover }}){:height="200px" width="1500px"}
+![Profile Image]({{ site.url }}/{{ site.cover }})
 
 <p align="justify">I am a graduate student in computer science at <a style="text-decoration:none" href="https://www.ed.ac.uk/">University of Edinburgh</a>. I am affiliated to <a style="text-decoration:none" href="http://www.icsa.informatics.ed.ac.uk/compilers/">Compilers and Architecture Design (CArD)</a> group of <a style="text-decoration:none" href="http://web.inf.ed.ac.uk/icsa/">Institute of Computing Systems Architecture (ICSA)</a> at School of  <a style="text-decoration:none" href="http://www.inf.ed.ac.uk/">Informatics</a>. I am also a student of EPSRC Centre for Doctoral Training (CDT) in <a style="text-decoration:none" href="http://web.inf.ed.ac.uk/infweb/student-services/cdt/pervasive-parallelism">Pervasive Parallelism</a>.</p>
 
