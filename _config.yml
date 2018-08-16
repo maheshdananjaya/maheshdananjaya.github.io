@@ -9,6 +9,7 @@ bio: <p>I am a graduate student in computer science at University of Edinburgh. 
 
 #<section><p>I am a graduate student in computer science at <a style="text-decoration:none" href="https://www.ed.ac.uk/">University of Edinburgh</a> . I am affiliated to Compiler and Architecture Design - <a style="text-decoration:none" href="http://www.icsa.informatics.ed.ac.uk/compilers/">CArD</a> group of Institute of Computing Systems Architecture - <a style="text-decoration:none" href="http://web.inf.ed.ac.uk/icsa/">ICSA</a> at School of Informatics. I am also a student of EPSRC Centre for Doctoral Training (CDT) in <a style="text-decoration:none" href="http://web.inf.ed.ac.uk/infweb/student-services/cdt/pervasive-parallelism">Pervasive Parallelism</a>.</p></section>
 #![Profile Image]({{ site.url }}/{{ site.picture }})
+# "assets/images/logoed.png"
 
 # twitter summary info
 description: Personal blog of Mahesh Dananjaya
@@ -19,7 +20,9 @@ external-image: false
 #picture: assets/images/profile.jpg
 picture: assets/images/mahesh2.jpg
 
-cover: assets/images/edincover.jpg
+cover: assets/images/edincover1.jpg
+
+footerpic: assets/images/logoed.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
