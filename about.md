@@ -10,7 +10,7 @@ layout: page
 
 <p align="justify"> I am currently working with <a style="text-decoration:none" href="http://homepages.inf.ed.ac.uk/vnagaraj/">Dr.Vijay Nagarajan</a> as my primary supervisor.</p>
  
-<p>I was previously working with <a style="text-decoration:none" href="https://www.synopsys.com/">Synopsys</a> (previously known as Atrenta) and  <a style="text-decoration:none" href="https://www.paraqum.com/">Paraqum</a> in EDA and electronic designs respectively.</p>
+<p>I was previously working with <a style="text-decoration:none" href="https://www.synopsys.com/">Synopsys</a> (previously known as Atrenta) and  <a style="text-decoration:none" href="https://www.paraqum.com/">Paraqum</a> in Electronic Design Automations (EDA) and ASIC/FPGA designs respectively.</p> Also, I was working with <a style="text-decoration:none" href="http://www.ent.mrt.ac.lk/~pasqual/">Dr. Ajith Pasqual</a> for my undergraduate reserach thesis, OpenFlow Aware RISC Network Processor.
 
 
 
@@ -33,7 +33,7 @@ layout: page
 	<li>TDD e Continuous Integration</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Portfolio</h2>
 
 <ul>
 	<li><a href="https://github.com/">Lorem Lorem</a></li>
