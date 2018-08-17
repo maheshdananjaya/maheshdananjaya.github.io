@@ -11,6 +11,8 @@ bio: <p>I am a graduate student in computer science at University of Edinburgh. 
 #![Profile Image]({{ site.url }}/{{ site.picture }})
 # "assets/images/logoed.png"
 
+#![Profile Image]({{ site.url }}/{{ site.cover }})
+
 # twitter summary info
 description: Personal blog of Mahesh Dananjaya
 
