@@ -1,7 +1,7 @@
 # main text of home
 name: Mahesh Dananjaya
 
-bio: <p>I am a graduate student in computer science at University of Edinburgh. I am affiliated to Compilers and Architecture Design (CArD) research group of Institute of Computing Systems Architecture (ICSA) at School of Informatics. I am also a student of EPSRC Centre for Doctoral Training (CDT) in Pervasive Parallelism.</p> 
+bio: <p><strong>I am a graduate student in Computer Science at University of Edinburgh. I am affiliated to Compilers and Architecture Design (CArD) research group of Institute of Computing Systems Architecture (ICSA) at School of Informatics. I am also a student of Centre for Doctoral Training (CDT) in Pervasive Parallelism.</strong></p> 
 #Gradute Student in Computer Science at University of Edinburgh
 
 #<div><section><p>I am a graduate student in computer science at <a style="text-decoration:none" href="https://www.ed.ac.uk/">University of Edinburgh</a> . I am affiliated to Compiler and Architecture Design - <a style="text-decoration:none" href="http://www.icsa.informatics.ed.ac.uk/compilers/">CArD</a> group of Institute of Computing Systems Architecture (ICSA) at School of Informatics. I am also a student at EPSRC Center for Doctoral Training (CDT) in Pervasive Parallelism.</p></section></div>
@@ -13,8 +13,13 @@ bio: <p>I am a graduate student in computer science at University of Edinburgh. 
 
 #![Profile Image]({{ site.url }}/{{ site.cover }})
 
+#<p class="extra"> <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a> by <a class="link" href="https://github.com/sergiokopplin/indigo">Kopplin</a></p>
+
+#   or page.title == "Blog"
+#   or page.title == "Projects"
+
 # twitter summary info
-description: Personal blog of Mahesh Dananjaya
+description: Mahesh Dananjaya's Personal Web Site
 
 # if it's an external image, update below for true
 # better with square images
@@ -25,6 +30,9 @@ picture: assets/images/mahesh2.jpg
 cover: assets/images/edincover1.jpg
 
 footerpic: assets/images/logoed.png
+footerpic2: assets/images/complogo.png
+footerpic3: assets/images/pparlogo.jpg
+footerpic4: assets/images/icsalogo.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -92,7 +100,6 @@ width: large
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
-
 publications: true
 
 # if you don't need "about" or "blog", comment them out below
