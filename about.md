@@ -13,23 +13,6 @@ layout: page
 <p align="justify"><strong>I was previously working on areas such as processor architecture, reconfigurable computing, very large scale integrated circuits, application and domain specific accelerators. Moreover, I was working with <a style="text-decoration:none" href="http://www.ent.mrt.ac.lk/~pasqual/">Dr. Ajith Pasqual</a> for my undergraduate reserach thesis at Department of Electronic and Telecommunication Engineering, University of Moratuwa. I had also been a part of Synopsys, Paraqum and Codegen before I joined Edinburgh. </strong></p>
 </font>
 
-<h3>Experience</h3>
-<ul class="skill-list">
-	<li>Electronic Engineer (ASIC/FPGA Designs) - Paraqum</li>
-	<li>Intern (EDA and VLSI)- Synopsys</li>
-	<li>Research Engineer (Machine Learning Systems)- QBITS Lab/Codegen</li>
-	<li>Student (Machine Learning/Distributed Computing) - Google Summer of Code</li>
-        
-</ul>
-
-<h3>Skills</h3>
-<ul class="skill-list">
-	<li>C/C++, Java, Python</li>
-	<li>HDL, Verilog, System Verilog, VHDL</li>
-	<li>RISC, RISC-V and Open Source Developments</li>
-
-</ul>
-
 <p hidden>I am currently live in Edinburgh, one of the most beautiful cities around the world.
 ![Profile Image]({{ site.url }}/{{ site.cover }})
 </p>

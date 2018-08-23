@@ -1,7 +1,7 @@
 # main text of home
 name: Mahesh Dananjaya
 
-bio: <p>I am a graduate student in Computer Science at University of Edinburgh. I am affiliated to Compilers and Architecture Design (CArD) research group of Institute of Computing Systems Architecture (ICSA) at School of Informatics. I am also a student of Centre for Doctoral Training (CDT) in Pervasive Parallelism.</p> 
+bio: <p>I am a graduate student in Computer Science at University of Edinburgh. I am affiliated to Compilers and Architecture Design (CArD) research group of Institute of Computing Systems Architecture (ICSA) at School of Informatics. I am also a student of Centre for Doctoral Training (CDT) in Pervasive Parallelism. My ressearch area is providing architectural and compiler support for paralle computing systems</p> 
 #Gradute Student in Computer Science at University of Edinburgh
 
 #<div><section><p>I am a graduate student in computer science at <a style="text-decoration:none" href="https://www.ed.ac.uk/">University of Edinburgh</a> . I am affiliated to Compiler and Architecture Design - <a style="text-decoration:none" href="http://www.icsa.informatics.ed.ac.uk/compilers/">CArD</a> group of Institute of Computing Systems Architecture (ICSA) at School of Informatics. I am also a student at EPSRC Center for Doctoral Training (CDT) in Pervasive Parallelism.</p></section></div>
@@ -14,6 +14,9 @@ bio: <p>I am a graduate student in Computer Science at University of Edinburgh. 
 #![Profile Image]({{ site.url }}/{{ site.cover }})
 
 #<p class="extra"> <a class="link" href="https://github.com/sergiokopplin/indigo">Indigo theme</a> by <a class="link" href="https://github.com/sergiokopplin/indigo">Kopplin</a></p>
+
+#Nav
+#{% if site.resume == true %}             <li class="item">                 <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>             </li>        {% endif %}
 
 #   or page.title == "Blog"
 #   or page.title == "Projects"
@@ -37,7 +40,7 @@ footerpic4: assets/images/icsalogo.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 #resume: true
-resume: false
+resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
@@ -99,7 +102,7 @@ width: large
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 publications: true
 
 # if you don't need "about" or "blog", comment them out below
