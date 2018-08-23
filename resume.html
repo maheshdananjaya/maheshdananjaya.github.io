@@ -1,0 +1,120 @@
+---
+layout: page
+title: Resume
+---
+<div id="resume">
+  <h3>  Education  </h3>  
+  <table style="width:100%" align="justify"  colspan="3">
+   <font size=3>   
+
+    <tr>
+    <strong>
+    <td>2018-present <br /> <br /></td>
+    <td>Masters Degree, Computer Science<br /> 
+    University of Edinburgh, UK <br /><br /></td> 
+    <td>GPA TBD <br /> <br /></td>
+    </strong>
+    </tr>  
+
+    <tr>
+    <td>2011-2016 <br /> <br /></td>
+    <td>Bacherlor Degree (Hons), Electronic and Telecommunication Engineering<br /> 
+    University of Moratuwa, Sri lanka <br /><br /></td>
+    <td>3.97/4.2 <br /><br /></td>    
+    </tr>
+
+ <!--hr style="display: inline-block; width: 90%; margin-bottom: 4px; margin-left: 5px;" /-->
+    
+   </font>
+  </table>
+  <hr style="display: inline-block; width: 100%; margin-bottom: 0px; margin-top: 0px; margin-left: 5px;" />
+
+ <h3>  Experience  </h3>  
+  <table style="width:100%" align="justify"  colspan="2">
+   <font size=3>   
+
+    <tr>
+    <strong>
+    <td>Jan 2018-present <br /> <br /></td>
+    <td>Research Engineer<br /> 
+    Codegen, Sri Lanka <br /><br /></td>   
+    </strong>
+    </tr>  
+
+    <tr>
+    <strong>
+    <td>Jan 2018-present <br /> <br /></td>
+    <td>Electronic Engineer<br /> 
+    Paraqum, Sri Lanka <br /><br /></td>    
+    </strong>
+    </tr>  
+
+    <tr>
+    <strong>
+    <td>Jan 2018-present <br /> <br /></td>
+    <td>Google Summer of Code Student<br /> 
+    Google and WSO2 <br /><br /></td>   
+    </strong>
+    </tr>  
+
+    <tr>
+    <strong>
+    <td>Oct 2014- April 2015 <br /> <br /></td>
+    <td>Intern<br /> 
+    Synopsys <br /><br /></td>   
+    </strong>
+    </tr>  
+
+
+
+ <!--hr style="display: inline-block; width: 90%; margin-bottom: 4px; margin-left: 5px;" /-->
+    
+   </font>
+  </table>
+  <hr style="display: inline-block; width: 100%; margin-bottom: 0px; margin-top: 0px; margin-left: 5px;" />
+  </div> <!-- resume -->
+
+
+
+<h3>Experience</h3>
+<ul class="skill-list">
+	<li>Electronic Engineer (ASIC/FPGA Designs) - Paraqum</li>
+	<li>Intern (EDA and VLSI)- Synopsys</li>
+	<li>Research Engineer (Machine Learning Systems)- QBITS Lab/Codegen</li>
+	<li>Student (Machine Learning/Distributed Computing) - Google Summer of Code</li>
+        
+</ul>
+
+<h3>Skills</h3>
+<ul class="skill-list">
+	<li>C/C++, Java, Python</li>
+	<li>HDL, Verilog, System Verilog, VHDL</li>
+	<li>RISC, RISC-V and Open Source Developments</li>
+
+</ul>
+
+<h2>Projects</h2>
+<ul>
+	<li><a href="https://github.com/dananjayamahesh/streamingml">streamingml</a> - Real Time Massive Predictive Analytics with Online Big Data </li>
+	<li><a href="https://github.com/dananjayamahesh/P4PQ">P4PQ</a> - P4 Parser Engine of the P4PQ Data Plane Architecture </li>
+	<li><a href="https://github.com/dananjayamahesh/ceyloniac">ceyloniac</a> - OpenFlow Aware Network Processor</li>
+	<li><a href="https://github.com/dananjayamahesh/NetWalk">NetWalk</a> - High Performance OpenFlow Architecture for Software Defined Networking (SDN)</li>
+	<li><a href="https://github.com/dananjayamahesh/netwalk-hw">netwalk-hw</a> - Hardware Implementation for High Performance OpenFlow Architecture</li>
+	<li><a href="https://github.com/Hype">Hype</a> - Evolutionary Computing : Evolutionary Optimizer for Dynamic Non-Convex Optimization</li>
+	<li><a href="https://github.com/MunichBFOR">MunichBFOR</a> - Evolutionary Computing :Evolutionary Multi Niche Bacterial Foraging Algorithm for Multimodal Dynamic Optimizations and Neural Network Optimization  </li>
+</ul>
+
+<section class="list">
+    {% for post in site.posts %}
+        {% if post.projects %}
+            <div class="item {% if post.star %}star{% endif %}">
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    <h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+
