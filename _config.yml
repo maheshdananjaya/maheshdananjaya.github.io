@@ -66,10 +66,10 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: dananjaya.mahesh.9
-twitter: mahesh91uom
+#facebook: dananjaya.mahesh.9
+#twitter: mahesh91uom
 # google: mygoogle
-instagram: mahesh.dananjaya
+#instagram: mahesh.dananjaya
 # pinterest: mypinterest
 linkedin: dananjayamahesh
 # youtube: myyoutube
@@ -80,10 +80,10 @@ github: dananjayamahesh
 stackoverflow: 9152362/mahesh-dananjaya
 quora: Mahesh-Dananjaya
 # reddit: username
-medium: dananjayamahesh
+#medium: dananjayamahesh
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: dananjaymahesh@gmail.com
+email: mahesh.dananjaya@ed.ac.uk
 
 authors:
     johndoe:
