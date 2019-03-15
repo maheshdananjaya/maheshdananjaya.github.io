@@ -117,70 +117,9 @@ title: Resume
   </table>
 <hr style="display: inline-block; width: 100%;height:2px;color:black;background-color:black; margin-bottom: 0px; margin-top: 0px; margin-left: 0px;" />
 
-<h4>Projects</h4>
-<table style="width:100%" align="justify"  colspan="2">
-   <font size=3>   
-
-    <tr>
-       <td><a style="text-decoration:none" href="https://github.com/OpenSemi/opensemi">OpenSemi</a>  </td>
-       <td> Research Oriented Fabless Open Source Semiconductor Initiative </td>
-    </tr>
-
-    <tr>
-       <td><a style="text-decoration:none" href="https://github.com/dananjayamahesh">DeepNet</a>  </td>
-       <td> High Performance & Energy Efficient Domain-Specific Accelerators for Deep Neural Networks </td>
-    </tr>
-
-    <tr>
-       <td><a style="text-decoration:none" href="https://github.com/dananjayamahesh/streamingml">streamingml</a>  </td>
-       <td> Real Time Massive Predictive Analytics with Online Big Data </td>
-    </tr>
-
-    <tr>
-       <td><a style="text-decoration:none" href="https://github.com/dananjayamahesh/P4PQ">P4PQ</a>  </td>
-       <td> P4 Parser Engine of the P4PQ Data Plane Architecture, Beyond OpenFlow </td>
-    </tr>
-
-    <tr>
-   <td><a style="text-decoration:none" style="text-decoration:none" href="https://github.com/dananjayamahesh/ceyloniac">ceyloniac</a>  </td>
-       <td>OpenFlow Aware Network Processor with custom RISC ISA </td>
-    </tr>
-
-    <tr>
-       <td><a style="text-decoration:none" href="https://github.com/dananjayamahesh/NetWalk">NetWalk</a>   </td>
-       <td> High Performance OpenFlow Architecture for Software Defined Networking (SDN) </td>
-    </tr>
-
-    <tr>
-       <td><a style="text-decoration:none" href="https://github.com/dananjayamahesh/netwalk-hw">netwalk-hw</a>  </td>
-       <td> Hardware Implementation for High Performance OpenFlow Architecture </td>
-    </tr>
-
-    <tr>
-       <td><a style="text-decoration:none" href="https://github.com/Hype">Hype</a>   </td>
-       <td> Evolutionary Optimizer for Dynamic Non-Convex Optimization</td>
-    </tr>
-
-    <tr>
-       <td><a style="text-decoration:none" href="https://github.com/MunichBFOR">MunichBFOR</a>   </td>
-       <td> Evolutionary Multi Niche Bacterial Foraging Algorithm for Neural Network Optimization</td>
-    </tr>
-</table>
-
 
 
 <hr style="display: inline-block; width: 100%;height:2px;color:black;background-color:black; margin-bottom: 0px; margin-top: 0px; margin-left: 0px;" />
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
-</section>
+
 
 
