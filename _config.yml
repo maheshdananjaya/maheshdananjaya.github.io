@@ -1,7 +1,9 @@
 # main text of home
 name: Mahesh Dananjaya
 
-bio: <p>I am a graduate student in computer science at the University of Edinburgh. I am broadly interested in computer architecture and programming/compiler support for parallel architectures, memory systems and distributed computing systems with particular emphasis on memory consistency, coherence protocols and memory persistency (non-volatile memory)</p>. Please find more information below!. Thank you.
+bio: <p>I am a phd student in computer science at the University of Edinburgh. I am broadly interested in computer architecture and distributed systems with particular emphasis on memory consistency models, coherence protocols and persistent memory.
+
+#systems and programming/compiler support for parallel architectures, memory systems and distributed computing systems with particular emphasis on memory consistency, coherence protocols and memory persistency (non-volatile memory)</p>. Please find more information below!. Thank you.
 
 #I am affiliated to Compilers and Architecture Design (CArD) research group of Institute of Computing Systems Architecture (ICSA) at School of Informatics. I am also a student of Centre for Doctoral Training (CDT) in Pervasive Parallelism. I am working on architecture and programming/compiler support for parallel computing, memory systems and distributed systems with particular emphasis on memory consistency, cache coherency and memory persistency</p>
 #Gradute Student in Computer Science at University of Edinburgh
