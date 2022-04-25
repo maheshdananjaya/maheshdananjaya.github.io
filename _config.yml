@@ -1,7 +1,7 @@
 # main text of home
 name: Mahesh Dananjaya
 
-bio: <p>I am a third year computer science PhD student at the University of Edinburgh. I am broadly interested in computer architecture, systems and programming models. My current research topics cover different aspects of consistency, availability and fault tolerance. 
+bio: <p>I am a third year computer science PhD student at the University of Edinburgh. I am broadly interested in computer architecture and distributed systems with particular emphasis on consistency, availability and fault tolerance. My current research topics cover fault tolerance techniques for emerging memory systems.
 
 #My current research work is focused on consistency models, coherence protocols and memory systems.
 
