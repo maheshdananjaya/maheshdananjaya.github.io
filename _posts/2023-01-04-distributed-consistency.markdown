@@ -12,4 +12,4 @@ category: blog
 author: Mahesh Dananjaya
 description: Something is not quite right about distributed consistency? Chaos everywhere!
 ---
-<meta http-equiv="refresh" content="0; url=https://dananjayamahesh.github.io/blog/disconsistency.html" />
+<meta http-equiv="refresh" content="0; url=https://maheshdananjaya.github.io/blog/disconsistency.html" />
