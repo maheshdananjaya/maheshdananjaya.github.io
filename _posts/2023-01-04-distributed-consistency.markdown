@@ -1,7 +1,7 @@
 ---
-title: "Model Checking of Cache Coherence Protocols Using Murphi Language"
+title: "Something is not quite right about distributed consistency? Chaos everywhere!"
 layout: post
-date: 2022-01-04 22:44
+date: 2023-01-04 22:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -12,4 +12,4 @@ category: blog
 author: Mahesh Dananjaya
 description: Something is not quite right about distributed consistency? Chaos everywhere!
 ---
-<meta http-equiv="refresh" content="0; url=https://dananjayamahesh.github.io/blog/distconsistency.html" />
+<meta http-equiv="refresh" content="0; url=https://dananjayamahesh.github.io/blog/disconsistency.html" />
