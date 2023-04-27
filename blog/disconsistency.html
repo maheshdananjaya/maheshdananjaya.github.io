@@ -49,13 +49,13 @@ A simple <font color="#0000ff">atomic-commitment</font> protocol, specifially <f
 		
 			<br/>
 			<br/>
-The database community has been using the simple optimistic two-phase commit (2PC) protocol for years to replicate databases (see link1, link2, etc.). For those interested, I would recommend reading some of Phil Bernstein's early work on this topic. However, there has been some confusion around this approach when it comes to multi-partition transactions. The original 2PC protocol enforces <font color="#ff0000">one-copy, serializability</font>, which is equivalent to the so-called <font color="#ff0000">(strict) serializability or ACID</font> in distributed systems. It's important to note that this protocol can handle not only reads and writes but also RMWs to the same object, or even mini transactions within the same partition. In fact, in the synchronous world, there is <font color="#ff0000">no difference</font> in handling writes and RMWs. It's important to note that we only dicuss read/write/RMW operations here.
+The database community has been using the simple optimistic two-phase commit (2PC) protocol for years to replicate databases (see <a href="https://dl.acm.org/doi/pdf/10.1145/937598.937601">this<a/>). For those interested, I would recommend reading some of Phil Bernstein's early work on this topic (<a href="https://dl.acm.org/doi/pdf/10.1145/1994.2207">link1<a/>, <a href="https://dl.acm.org/doi/pdf/10.1145/800221.806714">link2<a/> etc). However, there has been some confusion around this approach when it comes to multi-partition transactions. The original 2PC protocol enforces <font color="#ff0000">one-copy, serializability (sometimes called 1-SR)</font>, which is equivalent to the so-called <font color="#ff0000">(strict) serializability or ACID</font> in distributed systems. It's important to note that this protocol can handle not only reads and writes but also RMWs to the same object, or even mini transactions within the same partition. In fact, in the synchronous world, there is <font color="#ff0000">no difference</font> in handling writes and RMWs. It's important to note that we only dicuss read/write/RMW operations here.
 			<br/>
 			<br/>
 <strong><u>Two observations</u></strong>: In the synchronous world, <em>agreement, or atomic consistency, could be achieved with a simple atomic-commitment</em>, or transactional, protocol like 2PC and <em> there is no difference between a simple write operation and any read-modify-write(RMWs).</em> (some <a href="https://cse.buffalo.edu/~stevko/courses/cse486/spring14/lectures/28-replicated_transactions.pdf">slides<a>)
 			<br/>
 			<br/>
-<strong>Is this “strong consistency” Linearizability?</strong> - While the optimistic 2PC protocol provides real-time ordering and may appear similar to linearizability, it is not equivalent because readers can read from multiple replicas. However, it does provide atomicity, recovery, and client acknowledgements in the face of failures, which are not offered by linearizability. In fact, this protocol provides more than linearizability, which is why it is sometimes referred to as one-copy serializability or strong consistency. So, while it may not be linearizable, it is still a strong consistency model that offers valuable properties.
+<strong>Is this “Strong Consistency” Linearizability?</strong> - While the optimistic 2PC protocol provides real-time ordering and may appear similar to linearizability, it is not equivalent because readers can read from multiple replicas. However, it does provide atomicity, recovery, and client acknowledgements in the face of failures, which are not offered by linearizability. In fact, this protocol provides more than linearizability, which is why it is sometimes referred to as one-copy serializability or strong consistency. So, while it may not be linearizable, it is still a strong consistency model that offers valuable properties.
 			<br/>
 			<br/>
 <strong>CAP theorem</strong> -  The CAP theorem (Consistency, Availability, and Network Partitions) states that you cannot achieve all three properties simultaneously. Our optimistic 2PC protocol can be used to demonstrate this theorem. If there are network partitions, the protocol cannot make progress. For example, if there is a network partition, writes cannot atomically update all replicas, making it possible to achieve only consistency or availability. Clients can either read from their stale local copy (AP) or their write operation can be blocked until the partition goes away (CP) and they connect with all replicas. You can verify this by working through the 2PC. CAP theorem is believed to have originated from early work on replicated databases. The consistency it assumes is one-copy serializability, which is strong consistency compliant with ACID if you define A correctly, although the link between CAP and ACID has been unclear. This is because A in ACID is defined for transactions. 
@@ -128,8 +128,18 @@ Conclusion 5: 2PC is NOT always blocking thus we need 3PC. 2PC is not blocking f
 			
 			<br/>
 			
-			
-p.s. Follwoing materials also substantiate my sentiment. [<a href="https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45855.pdf"> linke1 </a>  <a href="https://cloud.google.com/spanner/docs/true-time-external-consistency">link2</a>]
+			<br/>
+			<br/>
+p.s. While working on this article, I have found the follwoing materials that substantiate my sentiments.
+Does spanner provide linearizability? (<a href="https://cloud.google.com/spanner/docs/true-time-external-consistency">link<a/>)
+What is strong consisteny of spanner transactions? (<a href="https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45855.pdf">link<a/>)
+For 1-SR or one-copy serilizability (
+<a href="https://dl.acm.org/doi/pdf/10.1145/937598.937601">link1<a/>,
+<a href"https://people.eecs.berkeley.edu/~culler/papers/dds.pdf">link2<a>
+<a href="https://dl.acm.org/doi/pdf/10.1145/1994.2207">link3<a/>, 
+<a href="https://dl.acm.org/doi/pdf/10.1145/800221.806714">link4<a/> 
+)
+
 			<br/>
 			<br/>
 			<br/>
