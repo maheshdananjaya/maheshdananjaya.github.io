@@ -45,7 +45,7 @@ We can enforce the agreement over the order of updates to the objects with simpl
  
 			<br/>
 			<br/>
-A simple <font color="#0000ff">atomic-commitment</font> protocol, specifially <font color="#0000ff">two-phase commit (2PC)</font>, can be used to ensure strong consistency in single object/partition replication. The beauty of using <a href"https://people.eecs.berkeley.edu/~culler/papers/dds.pdf">2PC</a> in this context is that it is non-blocking. Therefore, there is no need for a 3PC, which is required in other scenarios. It is worth noting that 2PC is also non-blocking in single/multi-partition transactions with a reliable storage layer, which I will discuss later.
+A simple <font color="#0000ff">atomic-commitment</font> protocol, specifially <font color="#0000ff">two-phase commit (2PC)</font>, can be used to ensure strong consistency in single object/partition replication. The beauty of using <a href="https://people.eecs.berkeley.edu/~culler/papers/dds.pdf">2PC</a> in this context is that it is non-blocking. Therefore, there is no need for a 3PC, which is required in other scenarios. It is worth noting that 2PC is also non-blocking in single/multi-partition transactions with a reliable storage layer, which I will discuss later.
 		
 			<br/>
 			<br/>
@@ -138,7 +138,7 @@ What is strong consisteny of spanner transactions? (<a href="https://storage.goo
 <br/>
 For 1-SR or one-copy serilizability (
 <a href="https://dl.acm.org/doi/pdf/10.1145/937598.937601">link1</a>,
-<a href"https://people.eecs.berkeley.edu/~culler/papers/dds.pdf">link2</a>
+<a href="https://people.eecs.berkeley.edu/~culler/papers/dds.pdf">link2</a>
 <a href="https://dl.acm.org/doi/pdf/10.1145/1994.2207">link3</a>, 
 <a href="https://dl.acm.org/doi/pdf/10.1145/800221.806714">link4</a> t
 )
