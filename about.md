@@ -14,10 +14,14 @@ layout: page
 <p align="justify"><strong>Previously, I collborated with <a style="text-decoration:none" href="http://www.ent.mrt.ac.lk/~pasqual/">Dr. Ajith Pasqual</a> on cutting-edge projects involving processor(CPU) architectures and software-defined hardware/networks architectures at the Department of Electronic and Telecommunication Engineering, University of Moratuwa. Subsequenlty, I held an engineering position at Paraqum technologies -- the (first) sri lankan semiconductor startup company that dr.Pasqual founded. In addiion, before starting my PhD, I also gained sound industry experience working with companies like Synopsys, WSO2 and Codegen. </strong></p>
 </font>
 
-<p>My expertise lies in the areas of -</p>
-<p>-Consistency models and their enforcement, specifically coherence protocols</p>
-<p>-Reliable and available transaction and replication protocols</p>
-<p>-End-to-end hw/sw co-design (and testing) for emerging architectures</p>
+<p> <strong> My expertise lies in the areas of </strong>
+<br>
+-Consistency models and their enforcement, specifically coherence protocols
+<br>
+-Reliable and available transaction and replication protocols
+<br>
+-End-to-end hw/sw co-design (and testing) for emerging architectures</p>
+
 
 <p hidden>I live in Edinburgh, one of the most beautiful cities in the world.
 ![Profile Image]({{ site.url }}/{{ site.cover }})
