@@ -6,17 +6,21 @@
  
  <body>
  <p> <strong> Haahoos of Transactions- The Power of Two-phase Commit (2PC) </strong> 
+ 	<br/>
+ 		<br/>
  I am going to put down some thought here soon. Meantime check this presenation which dicusses the five forms of the two phase commit protocol. In this blog, I focus on synchronous network. But we can relate the dicusstion easily to asynchrnous or partially sycnrhnous networks. There are some established sentiments about 2PC.
- 
+ 	<br/>
  <br/>
 Sentiment 1: 2PC is only for transactions with different objects and/or multiple operations.
 			<br/>
+				<br/>
 Sentiment 2: 2PC is always blocking, thus we need 3PC.
 			<br/>
+				<br/>
 
 In this blog post, I am going to convince you that these sentiments are slightly wrong and there are exceptions. 2PC is multi facets. For instance, 2PC can easily be used accomodate single-object read/write/RMWs over replicated key-value store (KVS). Such 2PC protocol is non-blocking and infact the basic building block of replicated databases and CAP theorem (check some early Phil Bernstein work as well). 			
  
- 
+ 	<br/>
  <br/>
 <br/>
  <embed src= "Haahoos.pdf" width= "1000" height= "500">
