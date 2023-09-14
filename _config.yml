@@ -1,7 +1,7 @@
 # main text of home
 name: Mahesh Dananjaya
 
-bio: <p>I am a final year CS PhD student at the University of Edinburgh. I am broadly interested in computer architecture and (distributed) systems with particular emphasis on consistency models, availability and reliability. My current research topics cover end-to-end hw/sw co-design techniques that enable robust and reliable datastores.
+bio: <p>I am a final year PhD student at the University of Edinburgh and also a part of CDT in Pervasive Parallelism. I am broadly interested in computer architecture and distributed systems with particular emphasis on consistency models, availability and reliability. My current research topics cover end-to-end hw/sw co-design techniques that enable robust and reliable datastores.
 
 #My current research work is focused on consistency models, coherence protocols and memory systems.
 
