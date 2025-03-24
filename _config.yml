@@ -35,7 +35,7 @@ description: Mahesh Dananjaya's Personal Web Site
 external-image: true
 #picture: assets/images/profile.jpg
 #picture: assets/images/mahesh2.jpg
-picture: assets/images/mahesh3.jpg
+picture: assets/images/maheshcurr.jpg
 
 cover: assets/images/edincover1.jpg
 
@@ -94,7 +94,7 @@ authors:
         name: Mahesh Dananjaya
         bio: Grad Student in Computer Science
         external-image: false
-        picture: assets/images/mahesh2.jpg
+        picture: assets/images/maheshcurrr.jpg
         twitter: mahesh91uom
     
 
